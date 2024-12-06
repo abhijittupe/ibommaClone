@@ -1,0 +1,76 @@
+/* defining styles for myBomma website */
+body{
+    background: linear-gradient(to bottom,red,green,blue);
+  /*  background: linear-gradient(45deg,red,green,blue);*/
+}
+.header{
+    display: flex;
+    background-color: black;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 15px;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header img{
+    width: 160px ;
+    height: 90px;
+}
+
+.header input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.header div:last-child{
+    margin-top:15px;
+    height: fit-content;
+}
+.header div:last-child button{
+    margin-top:15px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+
+.article{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #fff;
+}
+.article div{
+    font-size: 280%;
+}
+.footer{
+    background: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.grid-box{
+display: grid;
+/* grid-template-columns: 200px 100px 200px; */
+/*                     col1 col2 col3 col4*/
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto auto auto auto;
+width:80%;
+margin: auto;
+grid-gap:20px 10px;
+}
+
+.grid-box a{
+    color:#fff;
+    text-decoration:none;
+}
+.grid-box a:hover{
+    color: yellow  ;
+}
+.grid-box section img{
+    height: 400px;
+}
+.grid-box section span{
+    color: antiquewhite;
+}
